@@ -21,7 +21,7 @@ public abstract class OpenGLUtils {
         buffer.position(0);
         return buffer;
     }
-
+  //  ![image](https://github.com/MyAcooL/dianzan/blob/master/app/src/main/res/drawable/zhibo1.gif )
     public ByteBuffer getByteBuffer(byte[] indices) {
         //创建三角形构造索引数据缓冲
         ByteBuffer indexBuffer = ByteBuffer.allocateDirect(indices.length);
